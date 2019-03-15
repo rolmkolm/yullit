@@ -4,7 +4,7 @@
         .portrait { visibility: hidden; }
         .square { visibility: visible; }
 
-        @media (min-width: 800px) {
+        @media (min-aspect-ratio: 1/2) {
             .square,
             .landscape { visibility: hidden; }
             .portrait { visibility: visible; }
