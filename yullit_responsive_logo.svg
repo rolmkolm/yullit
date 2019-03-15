@@ -1,8 +1,6 @@
 <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
-        .landscape,
-        .portrait { visibility: hidden; }
-        .square { visibility: visible; }
+
 
         @media (min-aspect-ratio: 1/2) {
             .square,
@@ -14,6 +12,10 @@
             .portrait,
             .square { visibility: hidden; }
             .landscape { visibility: visible; }
+        
+                .landscape,
+        .portrait { visibility: hidden; }
+        .square { visibility: visible; }
         } 
     </style>
     <symbol id="icon" viewBox="0 0 400 400">
